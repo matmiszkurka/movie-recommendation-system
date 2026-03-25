@@ -1,3 +1,29 @@
+# Informacje
+
+Niniejsze repozytorium zawiera kod źródłowy pracy inżynierskiej realizowanej w metodyce Agile wspólnie z Patrykiem Mikuli.
+
+Ponieważ to repozytorium jest forkiem oryginalnego obszaru roboczego, poniżej załączam zakres zadań realizowanych w projekcie:
+
+## Moje kluczowe zadania w projekcie:
+** ML i System rekomendacyjny  **
+* Implementacja głównej architektury modelu **Two-Tower**.
+* Implementacja wieży filmów (Item Tower).
+* Implementacja metryk ewaluacyjnych oraz przeprowadzenie formalnej ewaluacji modelu Collaborative Filtering.
+* Opracowanie logiki rekomendacji hybrydowych.
+* Przygotowanie walidacji modelu LOOCV
+
+**Inżynieria i Analiza Danych:**
+* Łączenie i integracja złożonych zbiorów danych.
+* Przeprowadzenie wstępnej, eksploracyjnej analizy danych.
+* Stworzenie złożonych cech filmów, poprzez czyszczenie i inżynierię danych (enkodowanie tekstu (lematyzacja, tokeny), transformacja danych, tworzenie embeedingow itp.)
+
+**Backend i aplikacja:**
+* Projekt i implementacja aplikacji Streamlit.
+* Obsługa problemu "cold start" (wymuszenie początkowej oceny filmów dla nowych użytkowników).
+* Wdrożenie (deployment) aplikacji webowej.
+
+*Mój kolega z zespołu Patryk, był odpowiedzialny głównie za konfigurację środowiska lokalnego, integrację z wektorową bazą danych, implementację wieży użytkowników, stowrzenie modelu porównawczego opartego o Collaborative Filtering oraz całościowy deployment systemu w tym bazy wektorowej.*
+
 # Uruchamianie aplikacji
 
 Należy zacząć od instalacji zależności:
